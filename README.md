@@ -1,4 +1,4 @@
-# AppStructureDemo
+# iOS Basic App Structure
 
 AppStructureDemo is a skeleton of swift project for iOS application development.in this, it demonstrates ready to go base for any new application development.it's provide most common use classic like api caling, upload and download media, application data managment etc. 
 
