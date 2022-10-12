@@ -1,4 +1,4 @@
-# CommonApp
+# iOS Basic App Structure
 
 
 
