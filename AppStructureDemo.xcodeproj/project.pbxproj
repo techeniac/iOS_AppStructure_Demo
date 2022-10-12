@@ -147,11 +147,10 @@
 		54F1D48A2885383700261DAE /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54F1D44A2885383600261DAE /* Poppins-SemiBold.ttf */; };
 		54F1D48B2885383700261DAE /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54F1D44B2885383600261DAE /* Poppins-Italic.ttf */; };
 		54F1D48C2885383700261DAE /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54F1D44C2885383600261DAE /* Poppins-MediumItalic.ttf */; };
-		85360016C91171E4B42F792C /* Pods_CommonBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AFA1C0F325236B68EAC638 /* Pods_CommonBase.framework */; };
+		650AD4432CC96D27B4604FA7 /* Pods_AppStructureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D429D19E9534667868B76 /* Pods_AppStructureDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39AFA1C0F325236B68EAC638 /* Pods_CommonBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		452A915A109F85D5C6A614D5 /* Pods-CommonBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonBase.release.xcconfig"; path = "Target Support Files/Pods-CommonBase/Pods-CommonBase.release.xcconfig"; sourceTree = "<group>"; };
 		540CEF7228853D11002FA6F3 /* QRCodeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScanner.swift; sourceTree = "<group>"; };
 		540CEF7328853D11002FA6F3 /* QRCodeScanner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeScanner.xib; sourceTree = "<group>"; };
@@ -209,7 +208,7 @@
 		54E112BA2886B3DB005346F1 /* VotingCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingCollectionCell.swift; sourceTree = "<group>"; };
 		54E112BB2886B3DB005346F1 /* VotingCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VotingCollectionCell.xib; sourceTree = "<group>"; };
 		54E889B6289CC90D00CF49E1 /* UploadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadManager.swift; sourceTree = "<group>"; };
-		54F1D2AF28852EBB00261DAE /* CommonBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F1D2AF28852EBB00261DAE /* AppStructureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStructureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F1D2B228852EBB00261DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F1D2B428852EBB00261DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		54F1D2B628852EBB00261DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -315,7 +314,10 @@
 		54F1D44A2885383600261DAE /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		54F1D44B2885383600261DAE /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		54F1D44C2885383600261DAE /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
-		54F1D48D28853A8C00261DAE /* CommonBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		54F1D48D28853A8C00261DAE /* AppStructureDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppStructureDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7912FBD44F23BB1A4BF18549 /* Pods-AppStructureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructureDemo.release.xcconfig"; path = "Target Support Files/Pods-AppStructureDemo/Pods-AppStructureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9C1D429D19E9534667868B76 /* Pods_AppStructureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStructureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D564EBC41532D9EDCD15E9E3 /* Pods-AppStructureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructureDemo.debug.xcconfig"; path = "Target Support Files/Pods-AppStructureDemo/Pods-AppStructureDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F42AC4EC16965EE0172F4604 /* Pods-CommonBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonBase.debug.xcconfig"; path = "Target Support Files/Pods-CommonBase/Pods-CommonBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -324,7 +326,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85360016C91171E4B42F792C /* Pods_CommonBase.framework in Frameworks */,
+				650AD4432CC96D27B4604FA7 /* Pods_AppStructureDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +336,7 @@
 		04F65CDC8BD44B7097B9959C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39AFA1C0F325236B68EAC638 /* Pods_CommonBase.framework */,
+				9C1D429D19E9534667868B76 /* Pods_AppStructureDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -640,7 +642,7 @@
 		54F1D2A628852EBB00261DAE = {
 			isa = PBXGroup;
 			children = (
-				54F1D2B128852EBB00261DAE /* CommonBase */,
+				54F1D2B128852EBB00261DAE /* AppStructureDemo */,
 				54F1D2B028852EBB00261DAE /* Products */,
 				D3FC0C7637CA64284AEDA38E /* Pods */,
 				04F65CDC8BD44B7097B9959C /* Frameworks */,
@@ -650,12 +652,12 @@
 		54F1D2B028852EBB00261DAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54F1D2AF28852EBB00261DAE /* CommonBase.app */,
+				54F1D2AF28852EBB00261DAE /* AppStructureDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54F1D2B128852EBB00261DAE /* CommonBase */ = {
+		54F1D2B128852EBB00261DAE /* AppStructureDemo */ = {
 			isa = PBXGroup;
 			children = (
 				54F1D2C628852F5600261DAE /* AppDelegate */,
@@ -677,7 +679,7 @@
 				54F1D2BD28852EBD00261DAE /* LaunchScreen.storyboard */,
 				54F1D2C028852EBD00261DAE /* Info.plist */,
 			);
-			path = CommonBase;
+			path = AppStructureDemo;
 			sourceTree = "<group>";
 		};
 		54F1D2C628852F5600261DAE /* AppDelegate */ = {
@@ -777,7 +779,7 @@
 		54F1D2EF2885343400261DAE /* Bridging-Header */ = {
 			isa = PBXGroup;
 			children = (
-				54F1D48D28853A8C00261DAE /* CommonBase-Bridging-Header.h */,
+				54F1D48D28853A8C00261DAE /* AppStructureDemo-Bridging-Header.h */,
 			);
 			path = "Bridging-Header";
 			sourceTree = "<group>";
@@ -1067,6 +1069,8 @@
 			children = (
 				F42AC4EC16965EE0172F4604 /* Pods-CommonBase.debug.xcconfig */,
 				452A915A109F85D5C6A614D5 /* Pods-CommonBase.release.xcconfig */,
+				D564EBC41532D9EDCD15E9E3 /* Pods-AppStructureDemo.debug.xcconfig */,
+				7912FBD44F23BB1A4BF18549 /* Pods-AppStructureDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1074,9 +1078,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54F1D2AE28852EBB00261DAE /* CommonBase */ = {
+		54F1D2AE28852EBB00261DAE /* AppStructureDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54F1D2C328852EBD00261DAE /* Build configuration list for PBXNativeTarget "CommonBase" */;
+			buildConfigurationList = 54F1D2C328852EBD00261DAE /* Build configuration list for PBXNativeTarget "AppStructureDemo" */;
 			buildPhases = (
 				458FB67FC7633471E54C82ED /* [CP] Check Pods Manifest.lock */,
 				54F1D2AB28852EBB00261DAE /* Sources */,
@@ -1088,9 +1092,9 @@
 			);
 			dependencies = (
 			);
-			name = CommonBase;
+			name = AppStructureDemo;
 			productName = CommonBase;
-			productReference = 54F1D2AF28852EBB00261DAE /* CommonBase.app */;
+			productReference = 54F1D2AF28852EBB00261DAE /* AppStructureDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1109,7 +1113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54F1D2AA28852EBB00261DAE /* Build configuration list for PBXProject "CommonBase" */;
+			buildConfigurationList = 54F1D2AA28852EBB00261DAE /* Build configuration list for PBXProject "AppStructureDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1130,7 +1134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54F1D2AE28852EBB00261DAE /* CommonBase */,
+				54F1D2AE28852EBB00261DAE /* AppStructureDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -1214,7 +1218,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CommonBase-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AppStructureDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1227,15 +1231,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CommonBase/Pods-CommonBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AppStructureDemo/Pods-AppStructureDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CommonBase/Pods-CommonBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AppStructureDemo/Pods-AppStructureDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonBase/Pods-CommonBase-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppStructureDemo/Pods-AppStructureDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1489,7 +1493,7 @@
 		};
 		54F1D2C428852EBD00261DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F42AC4EC16965EE0172F4604 /* Pods-CommonBase.debug.xcconfig */;
+			baseConfigurationReference = D564EBC41532D9EDCD15E9E3 /* Pods-AppStructureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1497,7 +1501,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L7P346YVR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CommonBase/Info.plist;
+				INFOPLIST_FILE = AppStructureDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1509,10 +1513,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.romildhanani.CommonBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romildhanani.AppStructureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "CommonBase/Bridging-Header/CommonBase-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppStructureDemo/Bridging-Header/AppStructureDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1520,7 +1524,7 @@
 		};
 		54F1D2C528852EBD00261DAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 452A915A109F85D5C6A614D5 /* Pods-CommonBase.release.xcconfig */;
+			baseConfigurationReference = 7912FBD44F23BB1A4BF18549 /* Pods-AppStructureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1528,7 +1532,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L7P346YVR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CommonBase/Info.plist;
+				INFOPLIST_FILE = AppStructureDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1540,10 +1544,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.romildhanani.CommonBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romildhanani.AppStructureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "CommonBase/Bridging-Header/CommonBase-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppStructureDemo/Bridging-Header/AppStructureDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1552,7 +1556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54F1D2AA28852EBB00261DAE /* Build configuration list for PBXProject "CommonBase" */ = {
+		54F1D2AA28852EBB00261DAE /* Build configuration list for PBXProject "AppStructureDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54F1D2C128852EBD00261DAE /* Debug */,
@@ -1561,7 +1565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54F1D2C328852EBD00261DAE /* Build configuration list for PBXNativeTarget "CommonBase" */ = {
+		54F1D2C328852EBD00261DAE /* Build configuration list for PBXNativeTarget "AppStructureDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54F1D2C428852EBD00261DAE /* Debug */,
