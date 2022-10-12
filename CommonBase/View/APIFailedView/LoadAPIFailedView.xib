@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Karla-Bold.ttf">
+            <string>Karla-Bold</string>
+        </array>
+        <array key="Karla-Regular.ttf">
+            <string>Karla-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadAPIFailedView" customModule="Market_Diamonds" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4KM-mS-Bql">
+                    <rect key="frame" x="0.0" y="152.5" width="320" height="234.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data Found" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wf-zt-1Pu">
+                            <rect key="frame" x="16" y="152" width="288" height="21.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kTextColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wjb-IM-4jB">
+                            <rect key="frame" x="100" y="16" width="120" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="lFY-yu-jaf"/>
+                                <constraint firstAttribute="width" constant="120" id="rct-V3-k3R"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WZ-mk-YuM">
+                            <rect key="frame" x="122.5" y="189.5" width="75" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="1kz-iA-53S"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
+                            <state key="normal" title="Refresh">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kThemeColor"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="NSLanguageKey" value="KLblRefresh"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnRefresh_Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="irl-bk-Rga"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="3WZ-mk-YuM" firstAttribute="centerX" secondItem="4KM-mS-Bql" secondAttribute="centerX" id="8GY-f9-Wv8"/>
+                        <constraint firstItem="3WZ-mk-YuM" firstAttribute="top" secondItem="5wf-zt-1Pu" secondAttribute="bottom" constant="16" id="Kdk-me-4xi"/>
+                        <constraint firstItem="5wf-zt-1Pu" firstAttribute="top" secondItem="Wjb-IM-4jB" secondAttribute="bottom" constant="16" id="LAx-lj-CjH"/>
+                        <constraint firstAttribute="bottom" secondItem="3WZ-mk-YuM" secondAttribute="bottom" constant="16" id="TER-WN-LHA"/>
+                        <constraint firstItem="Wjb-IM-4jB" firstAttribute="top" secondItem="4KM-mS-Bql" secondAttribute="top" constant="16" id="aA8-lE-MZQ"/>
+                        <constraint firstAttribute="trailing" secondItem="5wf-zt-1Pu" secondAttribute="trailing" constant="16" id="b91-rr-AQo"/>
+                        <constraint firstItem="5wf-zt-1Pu" firstAttribute="leading" secondItem="4KM-mS-Bql" secondAttribute="leading" constant="16" id="gWY-Bc-JkT"/>
+                        <constraint firstItem="Wjb-IM-4jB" firstAttribute="centerX" secondItem="4KM-mS-Bql" secondAttribute="centerX" id="oFB-bp-Q7g"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4KM-mS-Bql" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="54a-ci-lbR"/>
+                <constraint firstAttribute="trailing" secondItem="4KM-mS-Bql" secondAttribute="trailing" id="9QY-XX-Raa"/>
+                <constraint firstItem="4KM-mS-Bql" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.95" id="LZL-kC-gYr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnRefresh" destination="3WZ-mk-YuM" id="grP-cO-crx"/>
+                <outlet property="heightImg" destination="lFY-yu-jaf" id="FxK-vP-6A6"/>
+                <outlet property="imgView" destination="Wjb-IM-4jB" id="jI7-hP-4SJ"/>
+                <outlet property="lblNoDataFound" destination="5wf-zt-1Pu" id="o3w-2w-c04"/>
+                <outlet property="viewtemp" destination="4KM-mS-Bql" id="WH0-R3-0vK"/>
+            </connections>
+            <point key="canvasLocation" x="-6" y="-377"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,529 @@
+/* 
+  Localizable.strings
+  HkConcept
+
+  Created by Coruscate Mac on 19/08/19.
+  Copyright © 2019 MayurMacmini. All rights reserved.
+*/
+
+// MARK: - Strings
+
+"KLblAppName" = "HK Export";
+
+//MARK : Button Title
+"KLblCancel" = "Cancel";
+"KLblSubmit" = "Submit";
+"KLblClose"  = "Close";
+"KLblRemove" = "Remove";
+"KLblAccept" = "Accept";
+"KLblDelete" = "Delete";
+"KLblModify" = "Modify";
+"KLblConfirm" = "Confirm";
+"KLblClear" = "Clear";
+"KLblYes"   = "Yes";
+"KLblNo"    = "No";
+"KLblAll"   = "All";
+"KLblCurrent" = "Current";
+"KLblView"   = "View";
+"KLblRetry"  = "Retry";
+"KLblApply"  = "Apply";
+"KLblDone"   = "Done";
+"KLblNext"   = "Next";
+"KLblOk"     = "Ok";
+"KLblRefresh" = "Refresh";
+"KLblAdd"    = "Add";
+"KLblCancelCap"    = "CANCEL";
+
+//MARK: Login
+"KMsgEmptyUsername"  = "Please enter username";
+"KMsgEmptyEmail"     = "Please enter email";
+"KMsgInvalidEmail"   = "Please enter valid email";
+"KMsgEmptyPassword"  = "Please enter password";
+
+//MARK: Auth module
+"KLblUsername" = "Username";
+"KLblPassword" = "Password";
+"KLblForgotPassword" = "Forgot Password?";
+"KMsgForgotPassword" = "Please enter your registered Email ID to reset your password. We will send reset password link to your Email ID.";
+"KHintEmailMobileUsername" = "*Email / Username / Mobile";
+"KMsgEmptyEmailUsernameMobile" = "Please enter email/username/mobile";
+"KLblHome" = "Home";
+"KLblLogin" = "Login";
+"KLblTouchId" = "Touch ID";
+"KLblLoginWith" = "OR Login with";
+"KLblDontHaveAccount" = "Don't have an Account?";
+"KLblSignUp" = "Sign up";
+
+"KLblGuest" = "Guest";
+"KMsgPleaseEnter" = "Please enter %s.";
+"KLblPersonalInformation" = "Personal Information";
+"KHintFirstName" = "*First Name";
+"KHintLastName" = "*Last Name";
+"KHintLastNameOptional" = "Last Name";
+"KLblBirthDate" = "Birth Date";
+"KLblAnniversaryDate" = "Anniversary Date";
+"KHintMobileNo" = "*Mobile No";
+"KLblTelephoneNo" = "Telephone No";
+"KLblSecurityInfo" = "Security Information";
+"KHintUsername" = "*Username";
+"KHintEmail" = "*Email";
+"KHintPassword" = "*Password";
+"KHintConfirmPassword" = "*Confirm Password";
+"KLblBusinessInfo" = "Business Information";
+"KHintCompanyName" = "*Company Name";
+"KHintDesignation" = "*Designation";
+"KHintBusinessType" = "*Business Type";
+"KLblWebsite" = "Website";
+"KLblAddressInfo" = "Address Information";
+"KHintAddress" = "*Address";
+"KHintCountry" = "*Country";
+"KHintState" = "*State";
+"KHintCity" = "*City";
+"KHintPincode" = "*Pincode";
+"KLblReferenceInfo" = "Reference";
+"KLblFax" = "FAX No";
+"KLblHowYouKnow" = "How do you know us";
+"KLblThirdPartyRef" = "Third Party Reference";
+"KMsgEmptyFirstname" = "Please enter first name";
+"KMsgEmptyLastname" = "Please enter last name";
+"KMsgEmptyMobile" = "Please enter mobile no";
+"KMsgInvalidMobile" = "Please enter valid mobile no";
+"KMsgInvalidTelephone" = "Please enter valid telephone no";
+"KMsgEmptyEmail" = "Please enter email";
+"KMsgInvalidPassword" = "Please enter valid password";
+"KMsgEmptyConfirmPass" = "Please enter confirm password";
+"KMsgMismatchConfirmPass" = "Confirm password and password should be same";
+"KMsgEmptyCompanyName" = "Please enter company name";
+"KMsgSelectDesignation" = "Please select designation";
+"KMsgSelectBusinessType" = "Please select business type";
+"KInvalidWebAddress" = "Please enter valid Website";
+"KMsgEmptyAddress" = "Please enter address";
+"KMsgSelectCountry" = "Please select country";
+"KMsgSelectState" = "Please select state";
+"KMsgSelectCity" = "Please select city";
+"KMsgEmptyPincode" = "Please enter pincode";
+"KMsgInvalidPincode" = "Please enter valid pincode";
+"KMsgInvalidBirthdate" = "Birth date must be before anniversary date";
+"KMsgInvalidAnniversarydate" = "Anniversary date must be after birth date";
+"KMsgEmptyCountryCode" = "Please select country code";
+"KLblRememberMe" = "Remember Me";
+"KHintCountryCode" = "*Code";
+"KMsgEmptyCountry" = "Please select country";
+"KMsgEmptyState" = "Please select state";
+"KMsgEmptyCity" = "Please select city";
+"KLblSelectDesignation" = "Please select designation";
+"KLblSelectBusinessType" = "Please select business type";
+"KMsgCountryNotSelected" = "Please select country first";
+"KMsgStateNotSelected" = "Please select state first";
+"KLblSelectState" = "Select state";
+"KLblSelectCity" = "Select city";
+"KLblSelectCountry" = "Select country";
+"KLblReadTermsCondition" = "I have read and agree to the Terms & Conditions";
+"KMsgAcceptTerms" = "Please accept terms and condition";
+"KLblSelectReference" = "Select Reference";
+"KLblWelcome" = "Welcome";
+"KLblRemeberPassword" = "Remember Password?";
+"KLblSignIn" = "Sign In";
+"KLblNotification" = "Notification";
+"KLblTransport" = "Transport Roster";
+"KLblDetails"   = "Details";
+"KHintContactPerson"    = "*Contact Person";
+"KMsgEmptyContactPersonName" = "Please enter contact person name";
+"KLblChangePassword" = "Change Password";
+"KMsgChangePassword" = "Please set your password information.";
+"KHintCurrentPassword" = "*Current Password";
+"KHintNewPassword" = "*New Password";
+"KMsgEmptyCurrentPassword" = "Please enter current password";
+"KMsgInvalidCurrentPassword" = "Please enter valid current password";
+"KMsgEmptyNewPassword" = "Please enter new password";
+"KMsgInvalidNewPassword" = "Please enter valid new password";
+
+
+//MARK: Diamond List
+"KLblOfflineResult" = "Result (Offline)";
+"KLblStockList" = "Stock List";
+"KLblSearchHistory" = "Search History";
+"KLblPcs" = "Pcs";
+"KLblCts" = "Cts";
+"KLblDiscPer" = "Disc %";
+"KLblPrice" = "Price $";
+"KLblAmount" = "Amount $";
+"KLblCarat" = "Carat";
+"KLblAmt" = "Amt";
+"KLblResult" = "Result";
+"KLblStatus" = "Status";
+"KLblPlaceOrder" = "Place Order";
+"KLblCompare" = "Compare";
+"KLblEnquiry" = "Enquiry";
+"KLblAddToCart" = "Add to Cart";
+"KMsgSelectDiamond" = "Please select atleast 1 Stones";
+"KLblAddToWatchList" = "Add to Watchlist";
+"KLblAddToCompare" = "Add to Compare";
+"KLblShare" = "Share";
+"KLblClearSelection" = "Clear Selection";
+"KLblDownload" = "Download";
+"KLblReminder" = "Reminder";
+"KLblMessage" = "Message";
+"KLblLowToHighPrice" = "Low to High $";
+"KLblHighToLowPrice" = "High to Low $";
+"KLblLowToHighPer" = "Low to High %";
+"KLblHighToLowPer" = "High to Low %";
+"KLblDefault" = "Default";
+"KLblSelectAll" = "Select All";
+"KLblLowToHighSize" = "Low to High Size";
+"KLblHighToLowSize" = "High to Low Size";
+"KLblLowToHighClarity" = "Low to High Clarity";
+"KLblHighToLowClarity" = "High to Low Clarity";
+"KLblLowToHighColor" = "Low to High Color";
+"KLblHighToLowColor" = "High to Low Color";
+"KLblCart" = "Cart";
+"KLblWatchlist" = "Watchlist";
+"KLblAddReminder" = "Add Reminder";
+"KLblSearchDiamond" = "Search Diamond";
+"KLblAvailable" = "Available";
+"KLblBusinessProcess" = "Business Process";
+"KLblNew" = "New";
+"KLblNewCapital" = "NEW";
+"KLblInLab" = "In Lab";
+"KLblLucky" = "I m Lucky";
+"KLblStoneOfDay" = "Stone of the Day";
+"KLblExclusiveStone" = "Exclusive Stone";
+"KLblFancyDiamond" = "Fancy Diamond";
+"KLblNewGoods" = "New Goods";
+"KLblMatchPair" = "Match Pairs";
+"KLblOflineStock" = "Offline Stock";
+"KLblPriceCalculator" = "Price Calculator";
+"KLblConcierge" = "Concierge";
+"KLblQrCode" = "QR Code";
+"KLblMore" = "More";
+"KLblRateUs" = "Rate Us";
+
+"KLblMoveSingleEnquiry" = "Are you sure you want to move this stones to the enquiry?";
+"KLblMoveAllToEnquiry" = "Are you sure you want to move all stones to the enquiry?";
+"KLblMoveSelectedToEnquiry" = "Are you sure you want to move selected stones to the enquiry?";
+"KLblViewEnquiry" = "View Enquiry";
+
+"KLblMoveAllToCart" = "Are you sure you want to move all stones to the cart?";
+"KLblMoveSingleCart" = "Are you sure you want to move this stones to the cart?";
+"KLblMoveSelectedToCart" = "Are you sure you want to move selected stones to the cart?";
+
+"KLblMoveAllToWatchlist" = "Are you sure you want to move all stones to the watchlist?";
+"KLblMoveSelectedToWatchlist" = "Are you sure you want to move selected stones to the watchlist?";
+"KLblMoveSingleWatchList" = "Are you sure you want to move this stones to the watchlist?";
+
+"KLblViewCart" = "View Cart";
+"KLblMoveAllToPlaceOrder"   = "Are you sure you want to place order of all stones?";
+"KLblMoveSelectedToPlaceOrder" = "Are you sure you want to place order of selected stones?";
+"KLblOrderNotPossbile" = "Currently, we are not accepting new orders please try after some time";
+"KLblThisStonePlaceOrder"   = "Are you sure you want to move this stone to the order?";
+
+"KLblDeleteAllWatchList" = "Are you sure you want to delete all stones from the watchlist?";
+"KLblDeleteSelectedWatchList" = "Are you sure you want to delete selected stones from the watchlist?";
+"KLblDeleteAllCart" = "Are you sure you want to delete all stones from the cart?";
+"KLblDeleteSelectedCart" = "Are you sure you want to delete selected stones from the cart?";
+"KLblDeleteAllEnquiry" = "Are you sure you want to delete all stones from the enquiry?";
+"KLblDeleteSelectedEnquiry" = "Are you sure you want to delete selected stones from the enquiry?";
+"KLblDeleteAllComment" = "Are you sure you want to delete all stones from the comment?";
+"KLblDeleteSelectedComment" = "Are you sure you want to delete selected stones from the comment?";
+
+"KLblViewWatchlist" = "View Watchlist";
+"KLblViewComment" = "View Comment";
+"KLblViewReminder" = "View Reminder";
+
+//MARK: - Diamond Details
+"KLblDiamondDetails"            = "Diamond Details";
+"KLblImage"                     = "Image";
+"KLblVideo"                     = "Video";
+"KLblCertificate"               = "Certificate";
+"KLblPloting"                   = "Ploting";
+"KLblInclusionDetails"          = "Inclusion Details";
+"KLblAdditionalInformation"     = "Additional Information";
+"KLblBt"                        = "Bt";
+"KLblWt"                        = "Wt";
+"KLblDtTo"                      = "TO";
+"KLblCo"                        = "CO";
+"KLblLus"                       = "Lus";
+"KLblEc"                        = "Ec";
+"KLblBc"                        = "Bc";
+"KLblWc"                        = "Wc";
+"KLblPo"                        = "PO";
+"KLblColshade"                  = "ColShade";
+"KLblDtHAndA"                   = "H&A";
+"KLblCertNo"                    = "Cert. No";
+"KLblTabPer"                    = "Tab %";
+"KLblTdPer"                     = "Td %";
+"KLblDtMeasurement"             = "Measurement";
+"KLblGirdle"                    = "Girdle";
+"KLblCrAngle"                   = "Cr. Ang";
+
+"KLblLi"                        = "LI";
+"KLblLwRatio"                   = "L/W Ration";
+"KLblPvAng"                     = "Pv Ang";
+"KLblFiShade"                   = "FIShade";
+"KLblStarLength"                = "Star Length";
+"KLblLoweHalve"                 = "Lowe Halve";
+"KLblRo"                        = "RO";
+"KLblDiaMin"                    = "Dia Min";
+"KLblDiaMax"                    = "Dia Max";
+
+//MARK: Compare
+"KLblSrNo"                  = "Sr No";
+"KLblColor"              = "Color";
+"KLblClarity"                 = "Clarity";
+"KLblLab"                     = "LAB";
+"KLblBlackTable"             = "Black Table";
+"KLblBlackCrown"             = "Black Crown";
+"KLblWhiteTable"             = "White Table";
+"KLblWhiteCrown"             = "White Crown";
+"KLblInscription"             = "Inscritpion";
+"KLblCut"                     = "CUT";
+"KLblPolish"                 = "POL";
+"KLblSymmetry"                 = "SYM";
+"KLblFluroscence"             = "FL";
+"KLblLocation"                 = "Location";
+"KLblShade"                     = "Shade";
+"KLblMilky"                     = "Milky";
+"KLblBlackInc"                 = "Black Inc.";
+"KLblEyeClean"                 = "E.C.";
+"KLblTableId"                 = "TI";
+"KLblMeasurement"             = "L*W-H";
+"KLblCulet"                     = "Culet";
+"KLblRemark"                  = "Remark";
+"KLblKeyToSymbol"             = "Key to Symbol";
+"KLblComment"                 = "Comment";
+"KLblDiscountPer"             = "Discount(%)";
+"KLblPricePerCarat"           = "Price/Cts";
+"KLblRapaportPer"             = "Rap(%)";
+"KLblRapaport"                = "Rapaport(US$)";
+"KLblTotalDepthPer"           = "Total Depth(%)";
+"KLblTablePer"                = "Table(%)";
+"KLblRatio"                   = "Ratio";
+"KLblGirdlePer"               = "Girdle(%)";
+"KLblDepthPer"                = "Depth(%)";
+"KLblCronAngle"               = "CA";
+"KLblSize"                    = "Size";
+"KLblLusterId"                = "Luster";
+"KLblBlackInclusionId"        = "Black Inc.";
+
+"KLblContactUs" = "Contact Us";
+"KLblDeleteCompare" = "Delete Compare";
+"KMsgSingleCannotCompare" = "Cannot compare single diamond";
+"KMsgReq2StoneToCompare" = "At least 2 Stones are required to compare";
+"KMsgSelectDiamondToDelete" = "Please select diamonds to delete";
+
+//MARK: Filter
+"KLblModifyAndSearch" = "Modify & Search";
+"KLblPacketNo" = "Packet No";
+"KLblStoneCertId" = "Stone ID/Cert No";
+"KLblAdvance" = "Advance";
+"KLblBasic" = "Basic";
+"KLblReset" = "Reset";
+"KLblSaveAndSearch" = "Save & Search";
+"KLblAddDemand" = "Add Demand";
+"KLblModifyDemand" = "Modify Demand";
+"KLblSavedSearch" = "Saved Search";
+"KLblMyDemand" = "My Demand";
+"kWrongFromValue" = "From value should be less than To value";
+"kWrongToValue"            = "To value should be greater than From value";
+"KMsgSelectSearch"          = "Please select for the search";
+"KMsgSelectForDemand"    = "Please select search criteria";
+"KMsgEnterTitle"              = "Please enter title";
+"KMsgSelectTillDate"          = "Please select till date";
+
+"KLblRecentSearch" = "Recent Search";
+"KLblSearch" = "Search";
+"KLblShape" = "Shape";
+"KLblColorShade" = "Color Shade";
+"KLblFluorescense" = "Fluorescense";
+"KLblPricePerCts" = "Price/CTS $";
+"KLblDiscountPercentage" = "Discount %";
+"KLblNewArrivalDate" = "New Arrival Date";
+"KLblTo" = "To";
+"KLblFrom" = "From";
+"KPlaceHolderToAngle" = "To (0)";
+"KPlaceHolderFromAngle" = "From (0)";
+"KLblCutSmall" = "Cut";
+"KLblPolishSmall" = "Polish";
+"KLblSymmetryhSmall" = "Symmetry";
+"KLblContains" = "Contains";
+"KLblDoesnotcontains" = "Does not contains";
+"KLblWhiteColor" = "White Color";
+"KLblFancyColor" = "Fancy Color";
+"KLblCaratRange" = "Select Carat Range";
+"KLblIntensity" = "Intensity";
+"KLblOverton" = "Overtone";
+"KLblTotalDepth" = "Total Depth %";
+"KLblCrownAngle" = "Crown Angle";
+"KLblPavilionAngle" = "Pavilion Angle";
+"KLblCrownHeight" = "Crown Height";
+"KLblPavilionHeight" = "Pavilion Height";
+"KLblTableOpen" = "Table Open";
+"KLblCrownOpen" = "Crown Open";
+"KLblPavilionOpen" = "Pavilion Open";
+"KLblRoughOrigin" = "Rough Origin";
+"KLblEyeCleanFull" = "Eye Clean";
+"KLblHAndA" = "H & A";
+"KLblStoneID" = "Stone ID";
+"KLblShowID" = "Show ID";
+"KLblCertificateNo" = "Certificate No";
+"KLblMemoNo" = "Memo No";
+
+//MARK: profile
+"KLblProfile" = "Profile";
+"KLblAppointment" = "Appointment";
+"KLblMessageMd" = "Message to MD";
+"KLblSuggestion" = "Suggestion";
+"KLblOrder" = "Order";
+"KLblPurchase" = "Purchase";
+"KLblHowToUse" = "How to use";
+"KLblSettings" = "Settings";
+"KLblLogout" = "Logout";
+"KLblStockSummary" = "Stock Summary";
+"KLblMyPurchase" = "My Purchase";
+"KLblOther" = "Other";
+"KLblLogoutMsg" = "Are you sure you want to logout?";
+
+//MARK: Suggestion
+"KMsgSuggestion" = "Your message is valuable to us. Please let us know What you think for this app and Help us Better our service.";
+"KLblYourMessage" = "Your Message";
+"KMsgEmptyMessage" = "Please enter your message";
+
+//MARK: Contact
+"KMsgContact" = "Got something to share with us? Shoot us an email and we will try best.";
+"KEmailCap" = "EMAIL";
+"KCallCap" = "CALL";
+"KMsgCopyright" = "© Hari Krishna Exports Pvt. Ltd.";
+
+"KLblDiameterMin" = "Diameter Min.";
+"KLblDiameterMax" = "Diameter Max";
+"KLblGridlePer" = "Gridle %";
+"KLblAddComment" = "Add Comment";
+"KMsgEnterComment" = "Please enter message.";
+"KLblYourPrice" = "Your Price";
+"KLblYourListPrice" = "List Price";
+"KMsgSkypeError" = "Skype is not installed in your device.";
+"KMsgMailError" = "Mail is not installed in your device.";
+"KMsgMessageError" = "Message is not installed in your device.";
+
+//MARK: About
+"KLblAboutHK" = "About HK";
+
+
+//MARK: Appointment
+"KLblAddAppointment" = "Add Appointment";
+"KHintSubject" = "*Subject";
+"KLblPersonName" = "*Person Name";
+"KLblWheretoMeet" = "Where to Meet?";
+"KLblOffice" = "Office";
+"KLblShow" = "Show";
+"KHintAppointmentFor" = "*Appointment For";
+"KHintAppointmentDate" = "*Appointment Date";
+"KHintCabinForAppointment" = "*Cabin For appointment";
+"KHintCabinSlotForAppointment" = "*Cabin Slots";
+"KHintDivison" = "*Divison Name";
+"KLblNote" = "*Note";
+"KLblSave" = "Save";
+
+"KMsgSelectAppointmentDate" = "Please select appointment date";
+"KMsgSelectCabin" = "Please select cabin for appointment";
+"KMsgSelectAppoinmentPerson" = "Please select person";
+"KMsgSelectAppoinment" = "Please select appoinment";
+"KMsgSelectCabinTime" = "Please select cabin for appointment time";
+"KMsgSelectDivision" = "Please select division";
+"KMsgEnterNote" = "Please enter note";
+"KMsgEnterSubject" = "Please enter subject";
+"KMsgInvalidCabins" = "No cabin available";
+
+"KLblInbox" = "INBOX";
+"KLblComplete" = "COMPLETE";
+
+//MARK : Quick Search
+"KLblQuickSearch" = "Quick Search";
+
+"KLblAllStock"  = "All Stock";
+"KLblSearchedStock"  = "Searched Stock";
+"KLblConfirmation"  = "Confirmation";
+"KLblTncStockDownload" = "Please read & accept terms before download stock offline.";
+"KLblStockDownloadInfo" = "There may be price and availability variations in the intervening period between placing an order offline and when the order is confirmed online. The changed of the same will be communicated to you via message. Please ensure that you take a note of it before confirming the order.";
+"KLblImages" = "Images";
+
+//MARK: Downloading popups
+"KLblDownloadInProgress" = "Please wait your offline stock is downloading...";
+"KLblDownloadComplete"   = "Your offline stock have been downloaded successfully";
+
+//MARK: Hospitality
+"KLblHospitality"        = "Hospitality";
+"KLblItems"              = "Items";
+"KLblAddRemark"          = "Add Remark";
+"KLblPleaseSelectProduct" = "Please add single product to place order";
+
+//MARK:- Trasnport Form
+"KPersonName" = "Person Name";
+"KCustomerType" = "Customer Type";
+"KDate" = "*Date";
+"KPickupPoint" = "*Pickup Point";
+"KDropPoint" = "*Drop Point";
+"KMobileNo1" = "Mobile No 1";
+"KMobileNo2" = "Mobile No 2";
+"KAnyComment" = "*Any Comment";
+"KHintPrefix" = "Prefix";
+"KHintCustomerType" = "Customer Type";
+"KLblShipmentRequest" = "Shipment Request";
+"KLblSelectPrefix" = "Please select prefix";
+"KMsgPersonName" = "Please enter person name";
+"KMsgSelectDate" = "Please select date";
+"KLblPickupPoint" = "Please enter pickup point";
+"KLblDropPoint" = "Please enter drop point";
+"KLblValidMobileNumber1" = "Please enter valid mobile no 1";
+"KLblValidMobileNumber2" = "Please enter valid mobile no 2";
+"KLblMsgRemark" = "Please enter valid remark";
+
+//MARK: - Prefix
+"KMr"       = "Mr.";
+"KMiss"     = "Miss";
+"KMrs"      = "Mrs.";
+"KMs"       = "Ms";
+"KLblResultFound" = "Result Found";
+
+//Profile
+"KNews" = "News";
+"KTermsAndCondition" = "Terms & Condition";
+"KLblOfflineMode"    = "Offline Mode";
+"KLblOfflineOrder"   = "Offline Order";
+
+//MARK: Voice Search
+"KVoiceSearch" = "Voice Search";
+"kLblTapMic" = "Tap Mic";
+"KLblListing" = "Listing...";
+
+//MARK: - Search History
+"KLblDate" = "Date";
+"KLblExpiryDate" = "Expiry Date";
+"KLblDeleteHistory" = "Are you sure you want to delete offline stock history?";
+
+//MARK: - Demand
+"KLblExpiry"    = "Expiry";
+
+//MARk: Home
+"KLblBookAppoinment" = "Book Appoinment";
+"kAccessDenied" = "Access denied";
+"kLblSomethingWentWrong" = "Something went wrong.!!";
+"kFailedToGetCamera" = "Failed to get camera";
+"kCameraPermission" = "You have not allow camera permission";
+"kOpenSettings" = "Open you settings and navigate through HK -> Camera";
+
+//MARK: No data messages
+"KMsgNoDataFound" = "No data found";
+"KMsgNoFavouriteFound" = "No favourite found";
+"KMsgNoDiamondFound" = "No diamond found";
+"KMsgNoInternetConnection" = "No internet connection";
+"KMsgNoSearchFound" = "No search found";
+"KMsgNoOrderFound" = "No order found";
+"KMsgNoAppointmentFound" = "No appointment found";
+"KMsgNoProductsFound" = "No products found";
+"KMsgNoDemandFound" = "No demand found";
+"KMsgNoHisoryFound" = "No history found";
+"KMsgStoneNotFoundQrCode" = "No stone found for this code";
+
+// MARK: Language
+"KLblSelectLanguage" = "Select Language";

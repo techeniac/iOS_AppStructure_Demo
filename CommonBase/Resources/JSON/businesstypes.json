@@ -1,0 +1,26 @@
+[
+{
+    "id" : "1",
+    "name": "Polished Dealer",
+},
+{
+    "id" : "2",
+    "name": "Jewellery Manufacturer",
+},
+{
+    "id" : "3",
+    "name": "Diamond Manufacturer",
+},
+{
+    "id" : "4",
+    "name": "Retailer",
+},
+{
+    "id" : "5",
+    "name": "Consumer",
+},
+{
+    "id" : "6",
+    "name": "Other",
+},
+]

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="CommonBase" customModuleProvider="target">
+            <connections>
+                <outlet property="txtPassword" destination="kkf-8P-bH2" id="kZV-kR-58O"/>
+                <outlet property="txtUsername" destination="HmO-IH-dkp" id="Tk0-rT-w2D"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z25-ok-XYq">
+                    <rect key="frame" x="15" y="478" width="290" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="lbH-JN-KW7"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="NSLanguageKey" value="KLblLogin"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kButtonTextColor"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kThemeColor"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnSubmit_Click" destination="-1" eventType="touchUpInside" id="k9m-Ic-eLs"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAD-gf-nbt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSb-en-GVE">
+                            <rect key="frame" x="139" y="19" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="NSLanguageKey" value="KLblLogin"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="hSb-en-GVE" firstAttribute="centerX" secondItem="qAD-gf-nbt" secondAttribute="centerX" id="XbJ-3v-YSm"/>
+                        <constraint firstItem="hSb-en-GVE" firstAttribute="centerY" secondItem="qAD-gf-nbt" secondAttribute="centerY" id="mkA-sb-5xo"/>
+                        <constraint firstAttribute="height" constant="59" id="rLI-Po-sOZ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imH-JU-tNX">
+                    <rect key="frame" x="15" y="79" width="290" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="W6G-Oo-XYS"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="NSLanguageKey" value="KLblGoogle"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kRedGoogle"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kButtonTextColor"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nb-FH-B9k">
+                    <rect key="frame" x="15" y="142" width="290" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Hvm-oU-eF3"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="NSLanguageKey" value="KLblFacebook"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kBlueFacebook"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kButtonTextColor"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPZ-nd-Nur">
+                    <rect key="frame" x="15" y="205" width="290" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Dwb-2y-A57"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="NSLanguageKey" value="KLblApple"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kBlackApple"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kButtonTextColor"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCq-NK-JEz">
+                    <rect key="frame" x="15" y="268" width="290" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="xCk-6K-kJn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HmO-IH-dkp" customClass="UITextFiledCommon" customModule="CommonBase" customModuleProvider="target">
+                    <rect key="frame" x="15" y="303" width="290" height="65"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="bbU-c1-dFQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkf-8P-bH2" customClass="UITextFiledCommon" customModule="CommonBase" customModuleProvider="target">
+                    <rect key="frame" x="15" y="383" width="290" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4x-XV-rlI">
+                            <rect key="frame" x="255" y="0.0" width="30" height="65"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="3OK-vu-dFU"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="eye" catalog="system"/>
+                            <connections>
+                                <action selector="btnPasswordShow_Click:" destination="kkf-8P-bH2" eventType="touchUpInside" id="Shd-w6-4BI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="5Q7-D9-5ds"/>
+                        <constraint firstAttribute="bottom" secondItem="l4x-XV-rlI" secondAttribute="bottom" id="Rgj-Mu-Af3"/>
+                        <constraint firstItem="l4x-XV-rlI" firstAttribute="top" secondItem="kkf-8P-bH2" secondAttribute="top" id="Yfj-K2-TZp"/>
+                        <constraint firstItem="l4x-XV-rlI" firstAttribute="centerY" secondItem="kkf-8P-bH2" secondAttribute="centerY" id="ekQ-AC-BXw"/>
+                        <constraint firstAttribute="trailing" secondItem="l4x-XV-rlI" secondAttribute="trailing" constant="5" id="giH-ZD-9dj"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureText" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kkf-8P-bH2" firstAttribute="top" secondItem="HmO-IH-dkp" secondAttribute="bottom" constant="15" id="2UM-uL-FeG"/>
+                <constraint firstItem="kkf-8P-bH2" firstAttribute="leading" secondItem="HmO-IH-dkp" secondAttribute="leading" id="5Fn-SC-XZv"/>
+                <constraint firstItem="HmO-IH-dkp" firstAttribute="trailing" secondItem="kCq-NK-JEz" secondAttribute="trailing" id="6oG-Iu-AsM"/>
+                <constraint firstItem="4nb-FH-B9k" firstAttribute="trailing" secondItem="imH-JU-tNX" secondAttribute="trailing" id="97L-YY-kqZ"/>
+                <constraint firstItem="HmO-IH-dkp" firstAttribute="top" secondItem="kCq-NK-JEz" secondAttribute="bottom" constant="15" id="DwB-e9-bzh"/>
+                <constraint firstItem="kCq-NK-JEz" firstAttribute="leading" secondItem="jPZ-nd-Nur" secondAttribute="leading" id="FXN-nV-TaC"/>
+                <constraint firstItem="z25-ok-XYq" firstAttribute="trailing" secondItem="kkf-8P-bH2" secondAttribute="trailing" id="FpK-lR-Izw"/>
+                <constraint firstItem="4nb-FH-B9k" firstAttribute="leading" secondItem="imH-JU-tNX" secondAttribute="leading" id="GDo-Sf-lJp"/>
+                <constraint firstItem="HmO-IH-dkp" firstAttribute="leading" secondItem="kCq-NK-JEz" secondAttribute="leading" id="JRY-It-Xd4"/>
+                <constraint firstItem="qAD-gf-nbt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="JT2-up-YAP"/>
+                <constraint firstItem="qAD-gf-nbt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="KpV-eQ-CaT"/>
+                <constraint firstItem="jPZ-nd-Nur" firstAttribute="top" secondItem="4nb-FH-B9k" secondAttribute="bottom" constant="15" id="LHH-Rq-FFT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qAD-gf-nbt" secondAttribute="trailing" id="LeJ-Wq-EPf"/>
+                <constraint firstItem="z25-ok-XYq" firstAttribute="top" secondItem="kkf-8P-bH2" secondAttribute="bottom" constant="30" id="MdO-CH-k5d"/>
+                <constraint firstItem="imH-JU-tNX" firstAttribute="top" secondItem="qAD-gf-nbt" secondAttribute="bottom" constant="20" id="NS0-kX-xNq"/>
+                <constraint firstItem="imH-JU-tNX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="Qmn-8i-nRP"/>
+                <constraint firstItem="kCq-NK-JEz" firstAttribute="trailing" secondItem="jPZ-nd-Nur" secondAttribute="trailing" id="VVT-RW-n7T"/>
+                <constraint firstItem="kCq-NK-JEz" firstAttribute="top" secondItem="jPZ-nd-Nur" secondAttribute="bottom" constant="15" id="ZDg-VI-ed4"/>
+                <constraint firstItem="z25-ok-XYq" firstAttribute="leading" secondItem="kkf-8P-bH2" secondAttribute="leading" id="ebG-t4-QXt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="imH-JU-tNX" secondAttribute="trailing" constant="15" id="fES-a0-Wwd"/>
+                <constraint firstItem="z25-ok-XYq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fUK-9L-Tig"/>
+                <constraint firstItem="4nb-FH-B9k" firstAttribute="top" secondItem="imH-JU-tNX" secondAttribute="bottom" constant="15" id="gfC-IT-PBW"/>
+                <constraint firstItem="jPZ-nd-Nur" firstAttribute="trailing" secondItem="4nb-FH-B9k" secondAttribute="trailing" id="lk0-N4-lYk"/>
+                <constraint firstItem="kkf-8P-bH2" firstAttribute="trailing" secondItem="HmO-IH-dkp" secondAttribute="trailing" id="mKM-AD-egf"/>
+                <constraint firstItem="jPZ-nd-Nur" firstAttribute="leading" secondItem="4nb-FH-B9k" secondAttribute="leading" id="pJT-El-j2b"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="50"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eye" catalog="system" width="128" height="81"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

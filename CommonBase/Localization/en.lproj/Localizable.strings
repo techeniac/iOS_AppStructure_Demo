@@ -1,0 +1,62 @@
+/*
+//  Localizable
+//  CommonBase
+//
+//  Created by Romil Dhanani on 18/07/22.
+//  Copyright © 2022 Romil's MACMini. All rights reserved.
+*/
+
+
+//MARK: Button Title
+"KLblCancel"                    = "Cancel";
+"KLblSubmit"                    = "Submit";
+
+//MARK: Common
+"KMsgLogout"                    = "are you sure want to logout?";
+
+//MARK: Splash Screen
+"KLblWelcome"                   = "Welcome";
+"KLblGoogle"                    = "Continue with Google";
+"KLblFacebook"                  = "Continue with Facebook";
+"KLblApple"                     = "Continue with Apple";
+"KLblForgotYourPassword"        = "Forgot your password?";
+"KHintEnterEmail"               = "Enter your Email";
+"KHintEnterPassword"            = "Enter your Password";
+
+//MARK: Login
+"KMsgEmptyUsername"             = "Please enter username.";
+"KLblLogin"                     = "Log In";
+"KLblSignup"                     = "Sign Up";
+
+//MARK: Auth module
+"KLblUsername"                  = "Username";
+"KHintUsername"                     = "Enter User name";
+"KLblPassword"                  = "Password";
+"KHintPassword"                  = "Enter Password";
+"KLblForgotPassword"            = "Forgot Password";
+"KLblResetPassword"             = "Reset Password?";
+"KMsgForgotPassword"            = "No worries, you can reset your password in two easy steps. Enter your email below and follow the steps.";
+"KHintEmailMobileUsername"      = "*Email / Username / Mobile";
+
+"KHintFirstName" = "Enter FirstName";
+"KHintLatsName" = "Enter LastName";
+"KHintBio" = "Enter ShortBio";
+"KHintEmail" = "Enter Email Address";
+
+"KLblFirstName" = "First Name";
+"KLblLatsName" = "Last Name";
+"KLblBio" = "Short Bio";
+"KLblEmail" = "Email Address";
+"KLblLogout" = "Logout";
+
+//MARK: Tabbar module
+"KLblMenuNewsFeed"              = "NewsFeed";
+"KLblMenuSearch"                = "Search";
+"KLblMenuFavorite"              = "Favorite";
+"KLblMenuNotifications"         = "Notifications";
+"KLblProfile"                   = "Profile";
+
+"KMsgNoNotificationFound"       = "No Notification Found";
+"KMsgNoNotificationFound"       = "No Notification Found";
+
+"KLblRefresh" = "Refresh";

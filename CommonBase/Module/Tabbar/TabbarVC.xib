@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabbarVC" customModule="CommonBase" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="eir-7G-jn6" id="veR-Px-UBc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewBorder" destination="7G1-pC-iYB" id="dsb-23-liP"/>
+                <outlet property="viewContainer" destination="hxY-eO-dYS" id="uMd-0U-RdY"/>
+                <outlet property="viewTabBar" destination="dgo-7d-91i" id="ffn-l1-KdJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxY-eO-dYS">
+                    <rect key="frame" x="0.0" y="44" width="414" height="745"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgo-7d-91i" customClass="SoftUIView" customModule="CommonBase" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="792" width="414" height="100"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="GCB-HG-ajc"/>
+                    </constraints>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7G1-pC-iYB" customClass="SoftUIView" customModule="CommonBase" customModuleProvider="target">
+                    <rect key="frame" x="3" y="795" width="408" height="97"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="eir-7G-jn6">
+                    <rect key="frame" x="3" y="795" width="408" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="Nhl-Ea-O2Q"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="1Dm-b1-YSX">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="wom-wC-byI"/>
+                        <outlet property="delegate" destination="-1" id="trM-sf-LH3"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7G1-pC-iYB" firstAttribute="leading" secondItem="dgo-7d-91i" secondAttribute="leading" constant="3" id="0UN-nB-zbn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dgo-7d-91i" secondAttribute="bottom" constant="-30" id="CNq-vf-7u0"/>
+                <constraint firstItem="7G1-pC-iYB" firstAttribute="trailing" secondItem="dgo-7d-91i" secondAttribute="trailing" constant="-3" id="EFH-I5-0EL"/>
+                <constraint firstItem="dgo-7d-91i" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Gg8-nr-JFC"/>
+                <constraint firstItem="7G1-pC-iYB" firstAttribute="top" secondItem="dgo-7d-91i" secondAttribute="top" constant="3" id="Ikg-GE-uz5"/>
+                <constraint firstItem="eir-7G-jn6" firstAttribute="top" secondItem="7G1-pC-iYB" secondAttribute="top" id="M1u-FU-chu"/>
+                <constraint firstItem="hxY-eO-dYS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Mhm-j1-Ze6"/>
+                <constraint firstItem="eir-7G-jn6" firstAttribute="trailing" secondItem="7G1-pC-iYB" secondAttribute="trailing" id="UAS-8p-tcf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hxY-eO-dYS" secondAttribute="trailing" id="UNs-tP-JGj"/>
+                <constraint firstItem="dgo-7d-91i" firstAttribute="top" secondItem="hxY-eO-dYS" secondAttribute="bottom" constant="3" id="XGM-aC-6u3"/>
+                <constraint firstItem="7G1-pC-iYB" firstAttribute="bottom" secondItem="dgo-7d-91i" secondAttribute="bottom" id="gw6-OV-OD8"/>
+                <constraint firstItem="hxY-eO-dYS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hL7-JG-sBk"/>
+                <constraint firstItem="dgo-7d-91i" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kjb-eH-8Ac"/>
+                <constraint firstItem="eir-7G-jn6" firstAttribute="leading" secondItem="7G1-pC-iYB" secondAttribute="leading" id="oV8-iQ-NV1"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kWhiteColor"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="133" y="86"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

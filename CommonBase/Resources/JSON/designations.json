@@ -1,0 +1,102 @@
+[
+{
+    "id" : "1",
+    "name": "Accountant",
+},
+{
+    "id" : "2",
+    "name": "Accountant(S)",
+},
+{
+    "id" : "3",
+    "name": "AccSHK",
+},
+{
+    "id" : "4",
+    "name": "Accview",
+},
+{
+    "id" : "5",
+    "name": "Buyer",
+},
+{
+    "id" : "6",
+    "name": "CEO",
+},
+{
+    "id" : "7",
+    "name": "Computer Operator",
+},
+{
+    "id" : "8",
+    "name": "CUSTOMER SUPPORT",
+},
+{
+    "id" : "9",
+    "name": "Designer",
+},
+{
+    "id" : "10",
+    "name": "Director",
+},
+{
+    "id" : "11",
+    "name": "DOM",
+},
+{
+    "id" : "12",
+    "name": "Export",
+},
+{
+    "id" : "13",
+    "name": "Founder",
+},
+{
+    "id" : "14",
+    "name": "Human resource manager",
+},
+{
+    "id" : "15",
+    "name": "Image Video And Cert Uploader",
+},
+{
+    "id" : "16",
+    "name": "Manager",
+},
+{
+    "id" : "17",
+    "name": "Others",
+},
+{
+    "id" : "18",
+    "name": "Owner",
+},
+{
+    "id" : "19",
+    "name": "Partner",
+},
+{
+    "id" : "20",
+    "name": "PRESIDENT",
+},
+{
+    "id" : "21",
+    "name": "PRESIDENT AND CEO",
+},
+{
+    "id" : "22",
+    "name": "Price MasterData Operator Assort",
+},
+{
+    "id" : "23",
+    "name": "Pricing",
+},
+{
+    "id" : "24",
+    "name": "Proprietor",
+},
+{
+    "id" : "25",
+    "name": "Purchase",
+},
+]
